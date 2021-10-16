@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>High School Website Design - Easy Tutorials</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootsrapath.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head> 
+ <body>
+     <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="images/waverly logo.png"></a>
+             <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="subjects.html">SUBJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+             </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <h1>Contact Us</h1>
+     </section>
+
+     <!-------- contact us ------>
+
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.7262900951782!2d28.078279950502736!3d-26.14046598338505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d0ee2ffd4c1%3A0x9c86fe1a840d9a35!2sWaverley%20Girls&#39;%20High%20School!5e0!3m2!1sen!2sza!4v1630670789264!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         
+     </section>
+
+     <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Athol Rd, Waverley</h5>
+                        <p>johannesburg</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>011 786 8063</h5>
+                        <p>Monday to Friday 7:30 to 4:30</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>wghs@mweb.co.za</h5>
+                        <p>Email us</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Applications</h5>
+                        <p>Click here for grade 8 applications</p>
+                        <img src="images/gauteng applications.jpg">
+                        <a href= "hero-btn red-btn">Apply Now</a>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" placeholder="Enter your name" required>
+                    <br>
+                    <br>
+                    <input type="email" placeholder="Enter email address" required>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <br>
+                    <br>
+                    <textarea row="8" placeholder="Message" required></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+     </section>
+    
+       
+
+
+ <!------- Footer ------->
+
+ <section class="footer">
+    <h4>Follow Us On All Social Media Platforms</h4>
+       <div class="icons">
+        <a href="https://www.instagram.com/wg.hs/"><img src="images/instagram6.png"></a>
+        <a href="https://web.facebook.com/WaverleyGirlsHighSchool/notifications/"><img src="images/facebook6.png"></a>
+        <a href="https://mobile.twitter.com/WaverleyGirls"><img src="images/twitter6.png"></a>
+        <a href=""></a><img src="images/linkedin6.png">   
+       </div>
+
+       <p>Made with <img src="images/heart2.JPG"> by Waverley Girls Students</p>
+   </section>
+</body>
+</html>   
+
+        <!--------javaScript for Toggle Menu------->
+     <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+  </section>  
+</body>
+</html>   
+
+     
+
+    
+ 
+
+
+
+
